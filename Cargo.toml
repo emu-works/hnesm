@@ -1,0 +1,13 @@
+[package]
+name = "hnesm"
+version = "0.1.0"
+authors = ["Hubert Dworczynski <hubert.dworczynski@gmail.com>, Miloš Sikic"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+
+[dependencies.sdl2]
+version = "*"
+default-features = false
+features = ["use_mac_framework"]
